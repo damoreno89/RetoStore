@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Realizar una compra en la tienda en línea" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-04-01T21:38:45" hostname="DESKTOP-GRCLGBE" time="22.317">
+  <properties/>
+  <testcase name="Selección de producto y verificación en el carrito de compras" classname="Realizar una compra en la tienda en línea" time="22.317">
+    <failure message="java.lang.AssertionError: Expected visibility of Producto nombreProducto&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected visibility of Producto nombreProducto
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at net.serenitybdd.screenplay.BooleanQuestionConsequence.evaluateFor(BooleanQuestionConsequence.java:36)
+	at net.serenitybdd.screenplay.Actor.check(Actor.java:420)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:392)
+	at co.com.davidMoreno.questions.VerificarCarritoCompras.performAs(VerificarCarritoCompras.java:23)
+	at co.com.davidMoreno.questions.VerificarCarritoCompras$ByteBuddy$sjO4TaKD.performAs$accessor$1wCX5cEI(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at co.com.davidMoreno.questions.VerificarCarritoCompras$ByteBuddy$sjO4TaKD.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:299)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:274)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:215)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:222)
+	at co.com.davidMoreno.stepdefinitions.RealizarCompra_StepDefinitions.daClickEnElCarritoDeComprasParaVerificarQueElProductoSeleccionadoEsteEnElCarrito(RealizarCompra_StepDefinitions.java:45)
+	at ✽.da click en el carrito de compras para verificar que el producto seleccionado esté en el carrito(file:///C:/Users/Usuario/Desktop/store/store/src/test/resources/features/Realizar_Compra.feature:17)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
